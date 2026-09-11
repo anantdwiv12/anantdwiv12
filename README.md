@@ -8,13 +8,18 @@ September 2026 and documents what has actually been implemented and tested.
 
 ## Current work
 
+[**WorkQueue**](https://github.com/anantdwiv12/workqueue) — a durable SQLite-backed
+job queue with leased workers, retries, idempotent submissions, and concurrent
+claim tests. Includes a runnable CLI, 10 tests and a reproducible local benchmark.
+
 [**Motor Control Lab**](https://github.com/anantdwiv12/motor-control-lab) — a DC motor simulator with sampled PI control, anti-windup,
-SciPy-based gain tuning, and separate evaluation scenarios. First milestone:
-eight tests, six scenarios, raw results and comparison plots.
+SciPy-based gain tuning, an equation-derived baseline, independent numerical
+validation and energy accounting. Includes 30 tests and reproducible results.
 
 ## Exploring next
 
-Robotics planning and localization; C/Rust systems experiments; constrained
+Backend services and developer tools; robotics planning and localization;
+C/Rust systems experiments; constrained
 optimization; and applications that make engineering experiments easier to run.
 
 Projects include reproduction steps, limitations, and upstream attribution.

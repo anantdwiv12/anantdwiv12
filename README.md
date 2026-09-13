@@ -8,6 +8,10 @@ September 2026 and documents what has actually been implemented and tested.
 
 ## Current work
 
+[**DocSearch**](https://github.com/anantdwiv12/docsearch) — a local document search
+CLI with ranked results, incremental indexing, atomic updates and highlighted
+excerpts. Includes 10 tests and a reproducible four-query demo using SQLite FTS5.
+
 [**WorkQueue**](https://github.com/anantdwiv12/workqueue) — a durable SQLite-backed
 job queue with leased workers, retries, idempotent submissions, and concurrent
 claim tests. Includes a runnable CLI, 10 tests and a reproducible local benchmark.
